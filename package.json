@@ -4,6 +4,7 @@
   "description": "A MERN stack skeleton web application",
   "main": "index.js",
   "scripts": {
+    "development": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,5 +17,10 @@
     "webpack": "^4.16.1",
     "webpack-cli": "^3.0.8",
     "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3"
   }
 }
